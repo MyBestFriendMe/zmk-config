@@ -11,7 +11,6 @@ manifest:
       revision: main
       import: app/west.yml
     - name: gametest
-      remote: MyBestFriendMe
       url: https://github.com/MyBestFriendMe/zmk-config.git
       revision: main
   self:
