@@ -2,6 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: MyBestFriendMe
+      url-base: https://github.com/MyBestFriendMe
 
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
@@ -11,7 +13,9 @@ manifest:
       revision: main
       import: app/west.yml
     - name: gametest
-      url: https://github.com/MyBestFriendMe/zmk-config01.git
-      revision: v0.1
+      remote: MyBestFriendMe
+      url: https://github.com/MyBestFriendMe/zmk-config.git
+      revision: main
+      import: 
   self:
     path: config
