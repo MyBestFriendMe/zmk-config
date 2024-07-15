@@ -1,2 +1,2 @@
 config SHIELD_GAMETEST
-    def_bool $(shields_list_contains,gametest)
+    def_bool $(shields_list_contains, GameTest)
