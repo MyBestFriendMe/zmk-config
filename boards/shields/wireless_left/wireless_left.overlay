@@ -1,0 +1,10 @@
+
+#include "wireless_left.dtsi"
+
+/ {
+    bootloader_key: bootloader_key {
+        compatible = "zmk,boot-magic-key";
+        key-position = <24>;
+        jump-to-bootloader;
+    };
+};
