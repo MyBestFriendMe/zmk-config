@@ -1,5 +1,5 @@
 
-#include "wireless_left.dtsi"
+#include "wireless_gaming.dtsi"
 
 / {
     bootloader_key: bootloader_key {

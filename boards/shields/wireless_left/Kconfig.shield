@@ -1,6 +1,0 @@
-
-config SHIELD_wireless_left_LEFT
-    def_bool $(shields_list_contains,wireless_left_left)
-
-config SHIELD_wireless_left_RIGHT
-    def_bool $(shields_list_contains,wireless_left_right)

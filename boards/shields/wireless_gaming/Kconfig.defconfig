@@ -1,0 +1,24 @@
+
+if SHIELD_wireless_gaming_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "wireless_gaming"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif # SHIELD_wireless_gaming_LEFT
+
+if SHIELD_wireless_gaming_LEFT || SHIELD_wireless_gaming_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+config SPI
+    default y
+
+config ZMK_RGB_UNDERGLOW
+    select WS2812_STRIP
+    select SPI
+
+endif # SHIELD_wireless_gaming_LEFT || SHIELD_wireless_gaming_RIGHT

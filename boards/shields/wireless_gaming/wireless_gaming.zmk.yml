@@ -1,10 +1,10 @@
 file_format: "1"
-id: wireless_left
-name: wireless_left
+id: wireless_gaming
+name: wireless_gaming
 type: shield
 url: https://github.com/rianadon/Cosmos-Keyboards
 features:
   - keys
   - studio
 siblings:
-  - wireless_left
+  - wireless_gaming

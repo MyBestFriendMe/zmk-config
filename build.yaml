@@ -1,5 +1,5 @@
 ---
 include:
   - board: cosmos_lemon_wireless
-    shield: wireless_left
+    shield: wireless_gaming
     snippet: zmk-usb-logging
